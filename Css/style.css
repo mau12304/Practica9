@@ -13,6 +13,16 @@ article{
     text-align: justify;
     line-height: 1.5; 
 }
+article #galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas del mismo tamaño */
+    gap: 10px; /* Espacio entre imágenes */
+}
+#galeria img{
+    width: 450px;
+    height: 350px;
+}
+
 nav{
     background-color: rgb(222, 218, 218);
 }
